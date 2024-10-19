@@ -20,14 +20,17 @@ p {
 }
 
 .instructions {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    max-width: 600px;
+    margin: 0 auto;
     padding: 0 10px;
 }
 
-.instructions img {
-    margin: 10px 0;
+.step {
+    margin: 20px 0;
+    text-align: center;
+}
+
+.step img {
     width: 100%;
     max-width: 400px;
     height: auto;
