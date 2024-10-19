@@ -20,7 +20,7 @@ p {
 }
 
 .instructions {
-    max-width: 600px;
+    max-width: 1000px;
     margin: 0 auto;
     padding: 0 10px;
 }
@@ -32,12 +32,21 @@ p {
 
 .step img {
     width: 100%;
-    max-width: 400px;
+    max-width: 800px;
     height: auto;
     border-radius: 20px;
     background: #f0f0f0;
     box-shadow: 10px 10px 20px #bebebe,
                 -10px -10px 20px #ffffff;
+    transition: transform 0.2s;
+}
+
+.step img:hover {
+    transform: scale(1.02);
+}
+
+.step a {
+    text-decoration: none;
 }
 
 footer {
