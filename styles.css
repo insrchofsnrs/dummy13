@@ -1,5 +1,5 @@
 body {
-    background-color: #f0f0f0;
+    background-color: #ffffff;
     font-family: 'Arial', sans-serif;
     color: #333;
     margin: 0;
@@ -34,10 +34,8 @@ p {
     width: 100%;
     max-width: 800px;
     height: auto;
-    border-radius: 20px;
-    background: #f0f0f0;
-    box-shadow: 10px 10px 20px #bebebe,
-                -10px -10px 20px #ffffff;
+    border-radius: 10px;
+    background: #ffffff;
     transition: transform 0.2s;
 }
 
